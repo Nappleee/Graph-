@@ -92,7 +92,7 @@ def plot_explanations(model, data):
     ugrad_cam_weights = ugrad_cam(mol, final_conv_acts, final_conv_grads)
     axes[1][2].imshow(img_for_mol(mol, atom_weights=ugrad_cam_weights))
 
-    plt.savefig(f'explanations/{mol_num}.png')
+    plt.savefig(f'Graph-/explanations/{mol_num}.png')
     plt.close('all')
 
 def saliency_map(input_grads):
