@@ -42,7 +42,7 @@ def img_for_mol(mol, atom_weights=[]):
 
     rdDepictor.Compute2DCoords(mol)
     drawer = rdMolDraw2D.MolDraw2DSVG(280, 280)
-    drawer.SetFontSize(1)
+    drawer.SetFontSize(6)
 
     mol = rdMolDraw2D.PrepareMolForDrawing(mol)
     drawer.DrawMolecule(mol, **highlight_kwargs)
