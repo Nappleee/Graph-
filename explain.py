@@ -12,7 +12,7 @@ import matplotlib.cm as cm
 from skimage.io import imread
 from cairosvg import svg2png, svg2ps
 import os
-from torch_geometric.data import DataLoader
+from torch_geometric.loader import DataLoader
 import pandas as pd
 from rdkit import Chem
 from sklearn.preprocessing import MinMaxScaler
