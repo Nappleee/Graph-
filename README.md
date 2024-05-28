@@ -34,4 +34,5 @@ https://github.com/ndey96/GCNN-Explainability
 ```sh
 !python explain.py
 ```
-!(/content/Graph-/Pic/1.png)
+![1](Pic/1.png)
+
