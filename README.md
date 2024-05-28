@@ -34,5 +34,6 @@ https://github.com/ndey96/GCNN-Explainability
 ```sh
 !python explain.py
 ```
+This is an example when you run the explain.py when the input is BBBP
 ![1](Pic/1.png)
 
